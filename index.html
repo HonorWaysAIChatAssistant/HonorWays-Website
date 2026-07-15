@@ -137,7 +137,49 @@
       font-size: 16px;
       font-weight: 600;
     }
+.contact-buttons {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
 
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 205px;
+  padding: 14px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.contact-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.whatsapp-button {
+  background: #ffffff;
+  color: #071426;
+}
+
+.facebook-button {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.contact-note {
+  margin-top: 18px;
+  color: #aeb9c7;
+  font-size: 13px;
+}
+  
     footer {
       padding: 22px 7%;
       text-align: center;
@@ -214,6 +256,34 @@
       </div>
 
       <p class="message">We are building something valuable. Please visit us again soon.</p>
+
+      <div class="contact-buttons">
+
+  <a
+    class="contact-button whatsapp-button"
+    href="https://wa.me/5978777754?text=Hello%20HonorWays%20Consulting%2C%20I%20would%20like%20more%20information%20about%20your%20services."
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contact HonorWays Consulting on WhatsApp"
+  >
+    Contact us on WhatsApp
+  </a>
+
+  <a
+    class="contact-button facebook-button"
+    href="https://www.facebook.com/share/1Cm88x7UVy/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit the HonorWays Consulting Facebook page"
+  >
+    Visit our Facebook page
+  </a>
+
+</div>
+
+<p class="contact-note">
+  Questions about our services or upcoming training? Send us a message.
+</p>
 
     </section>
   </main>
