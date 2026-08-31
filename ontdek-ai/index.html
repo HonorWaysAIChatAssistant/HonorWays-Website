@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ontdek AI Training | Praktisch en Verantwoord AI-gebruik | HonorWays Consulting</title>
+
+  <meta
+    name="description"
+    content="Ontdek AI is een praktische introductietraining van HonorWays Consulting in Paramaribo. Leer AI begrijpen, praktisch gebruiken en verantwoord toepassen voor werk, studie en het dagelijks leven."
+  >
+
+  <meta name="author" content="HonorWays Consulting">
+
+  <link rel="canonical" href="https://honorways.com/ontdek-ai/">
+
+  <meta property="og:title" content="Ontdek AI | HonorWays Consulting">
+  <meta
+    property="og:description"
+    content="Praktische introductietraining voor verantwoord AI-gebruik. Leer AI begrijpen, praktisch gebruiken en verantwoord toepassen."
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://honorways.com/ontdek-ai/">
+  <meta
+    property="og:image"
+    content="https://honorways.com/assets/images/ontdek-ai-training-augustus-2026.jpeg"
+  >
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Ontdek AI",
+    "description": "Praktische introductietraining voor verantwoord AI-gebruik.",
+    "provider": {
+      "@type": "Organization",
+      "name": "HonorWays Consulting",
+      "url": "https://honorways.com/"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --navy: #0c2340;
+      --navy-dark: #081a2e;
+      --navy-soft: #173552;
+      --gold: #b58a3d;
+      --gold-dark: #987128;
+      --cream: #f7f4ed;
+      --cream-soft: #fbfaf7;
+      --white: #ffffff;
+      --text: #29323d;
+      --muted: #66717d;
+      --border: #e8e3da;
+      --whatsapp: #25d366;
+      --content: 1080px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--white);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    /* HEADER */
+
+    header {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      width: min(1180px, calc(100% - 56px));
+      margin: 0 auto;
+      min-height: 108px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+    }
+
+    .brand-logo {
+      width: 76px;
+      height: 76px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    .brand-wordmark {
+      line-height: 1.05;
+    }
+
+    .brand-wordmark strong {
+      display: block;
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+
+    .brand-wordmark span {
+      display: block;
+      margin-top: 6px;
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2.4px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 34px;
+    }
+
+    nav a {
+      color: var(--navy);
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 8px 0;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: var(--gold);
+    }
+
+    /* GENERAL */
+
+    .section {
+      padding: 78px 28px;
+    }
+
+    .section-inner {
+      max-width: var(--content);
+      margin: 0 auto;
+    }
+
+    .section-label {
+      margin-bottom: 12px;
+      color: var(--gold-dark);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(30px, 3.5vw, 42px);
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
+    /* HERO */
+
+    .hero {
+      background: linear-gradient(120deg, #fffdfa 0%, var(--cream) 100%);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-inner {
+      max-width: var(--content);
+      margin: 0 auto;
+      padding: 88px 28px 90px;
+    }
+
+    .hero-eyebrow {
+      margin-bottom: 16px;
+      color: var(--gold-dark);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(52px, 7vw, 78px);
+      font-weight: 500;
+      line-height: 1;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-subtitle {
+      margin-top: 18px;
+      color: var(--gold-dark);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(22px, 3vw, 30px);
+      line-height: 1.35;
+    }
+
+    .hero-lead {
+      max-width: 780px;
+      margin-top: 28px;
+      color: var(--text);
+      font-size: 19px;
+      line-height: 1.75;
+    }
+
+    .hero-actions {
+      margin-top: 34px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50px;
+      padding: 13px 24px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .button-primary {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .button-primary:hover {
+      background: var(--navy-soft);
+    }
+
+    .button-secondary {
+      border: 1px solid var(--gold);
+      color: var(--navy);
+      background: transparent;
+    }
+
+    .button-secondary:hover {
+      background: var(--white);
+    }
+
+    /* INTRO */
+
+    .intro-section {
+      background: var(--white);
+    }
+
+    .intro-copy {
+      max-width: 900px;
+    }
+
+    .intro-copy p {
+      margin-top: 22px;
+      font-size: 17px;
+      line-height: 1.85;
+    }
+
+    /* LEARNING */
+
+    .learning-section {
+      background: var(--cream-soft);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .learning-grid {
+      margin-top: 38px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0 50px;
+    }
+
+    .learning-item {
+      position: relative;
+      padding: 17px 0 17px 30px;
+      border-bottom: 1px solid var(--border);
+      font-size: 16px;
+    }
+
+    .learning-item::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      top: 17px;
+      color: var(--gold-dark);
+      font-weight: 700;
+    }
+
+    .learning-followup {
+      max-width: 850px;
+      margin-top: 35px;
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+    /* PRACTICAL */
+
+    .practical-section {
+      background: var(--white);
+    }
+
+    .practical-grid {
+      margin-top: 38px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .practical-card {
+      padding: 26px 24px;
+      background: var(--cream-soft);
+      border: 1px solid var(--border);
+    }
+
+    .practical-card strong {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .practical-card span {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.65;
+    }
+
+    /* ENGLISH */
+
+    .english-block {
+      max-width: var(--content);
+      margin: 0 auto 78px;
+      padding: 30px 34px;
+      border-left: 3px solid var(--gold);
+      background: var(--cream);
+    }
+
+    .english-block h2 {
+      font-size: 25px;
+    }
+
+    .english-block p {
+      margin-top: 11px;
+      max-width: 760px;
+      font-size: 15.5px;
+    }
+
+    .english-link {
+      display: inline-block;
+      margin-top: 15px;
+      color: var(--navy);
+      font-weight: 700;
+    }
+
+    /* RESPONSIBLE AI */
+
+    .responsible-section {
+      background: var(--navy);
+      color: rgba(255,255,255,0.9);
+    }
+
+    .responsible-section .section-label {
+      color: #dfc07b;
+    }
+
+    .responsible-section h2 {
+      color: var(--white);
+    }
+
+    .responsible-copy {
+      max-width: 850px;
+    }
+
+    .responsible-copy p {
+      margin-top: 22px;
+      font-size: 17px;
+      line-height: 1.85;
+    }
+
+    .responsible-message {
+      margin-top: 32px;
+      padding-left: 22px;
+      border-left: 2px solid var(--gold);
+      color: #f0d79e;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 23px;
+      font-style: italic;
+    }
+
+    /* INCLUDED */
+
+    .included-section {
+      background: var(--white);
+    }
+
+    .included-grid {
+      margin-top: 36px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    .included-card {
+      padding: 30px;
+      border: 1px solid var(--border);
+      background: var(--cream-soft);
+    }
+
+    .included-card h3 {
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    .included-card p {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 15.5px;
+    }
+
+    /* SOCIAL PROOF */
+
+    .proof-section {
+      background: var(--cream);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .proof-layout {
+      margin-top: 38px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+      gap: 50px;
+      align-items: center;
+    }
+
+    .proof-photo {
+      width: 100%;
+      display: block;
+      border-radius: 3px;
+      box-shadow: 0 8px 24px rgba(12,35,64,0.10);
+    }
+
+    .photo-caption {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .testimonials {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    .testimonial {
+      padding: 23px 25px;
+      background: var(--white);
+      border-left: 3px solid var(--gold);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      font-style: italic;
+      line-height: 1.65;
+    }
+
+    /* REGISTRATION */
+
+    .registration-section {
+      background: var(--white);
+      text-align: center;
+    }
+
+    .registration-inner {
+      max-width: 790px;
+      margin: 0 auto;
+    }
+
+    .registration-inner p {
+      margin-top: 19px;
+      font-size: 16.5px;
+      line-height: 1.8;
+    }
+
+    .registration-note {
+      color: var(--muted);
+      font-size: 14px !important;
+    }
+
+    .registration-button {
+      margin-top: 28px;
+      min-width: 250px;
+      background: var(--gold-dark);
+      color: var(--white);
+    }
+
+    .registration-button:hover {
+      background: var(--navy);
+    }
+
+    /* QUESTIONS */
+
+    .questions-section {
+      background: var(--cream);
+      padding: 50px 28px;
+      text-align: center;
+      border-top: 1px solid var(--border);
+    }
+
+    .questions-inner {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .questions-inner h2 {
+      font-size: 28px;
+    }
+
+    .questions-inner p {
+      margin-top: 12px;
+      color: var(--muted);
+    }
+
+    .whatsapp-link {
+      display: inline-block;
+      margin-top: 17px;
+      color: var(--navy);
+      font-weight: 700;
+    }
+
+    /* FOOTER */
+
+    footer {
+      background: var(--navy-dark);
+      color: #aeb9c5;
+      text-align: center;
+      padding: 20px 28px 24px;
+      font-size: 12.5px;
+      line-height: 1.7;
+    }
+
+    footer .registration {
+      margin-bottom: 3px;
+      color: #c5ced7;
+    }
+
+    /* TABLET / MOBILE */
+
+    @media (max-width: 820px) {
+      .header-inner {
+        width: 100%;
+        min-height: auto;
+        padding: 13px 18px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
+
+      .brand-logo {
+        width: 60px;
+        height: 60px;
+      }
+
+      .brand-wordmark strong {
+        font-size: 19px;
+      }
+
+      .brand-wordmark span {
+        margin-top: 4px;
+        font-size: 9.5px;
+        letter-spacing: 2px;
+      }
+
+      nav {
+        width: 100%;
+        justify-content: center;
+        gap: 25px;
+      }
+
+      nav a {
+        font-size: 13px;
+      }
+
+      .hero-inner {
+        padding: 64px 22px 66px;
+      }
+
+      .hero h1 {
+        font-size: 54px;
+      }
+
+      .hero-lead {
+        font-size: 17px;
+      }
+
+      .section {
+        padding: 62px 22px;
+      }
+
+      .learning-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .practical-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .proof-layout {
+        grid-template-columns: 1fr;
+        gap: 34px;
+      }
+
+      .included-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .english-block {
+        margin: 0 22px 62px;
+      }
+    }
+
+    @media (max-width: 540px) {
+      .header-inner {
+        align-items: center;
+      }
+
+      .brand {
+        align-self: flex-start;
+      }
+
+      nav {
+        gap: 17px;
+        flex-wrap: wrap;
+      }
+
+      nav a {
+        font-size: 12.5px;
+      }
+
+      .hero-inner {
+        padding: 52px 20px 56px;
+      }
+
+      .hero h1 {
+        font-size: 46px;
+      }
+
+      .hero-subtitle {
+        font-size: 23px;
+      }
+
+      .hero-lead {
+        font-size: 16px;
+      }
+
+      .hero-actions {
+        flex-direction: column;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .section {
+        padding: 54px 20px;
+      }
+
+      h2 {
+        font-size: 31px;
+      }
+
+      .intro-copy p,
+      .responsible-copy p,
+      .learning-followup {
+        font-size: 16px;
+      }
+
+      .practical-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .english-block {
+        margin: 0 20px 54px;
+        padding: 26px 24px;
+      }
+
+      .proof-layout {
+        margin-top: 28px;
+      }
+
+      .testimonial {
+        font-size: 16px;
+      }
+
+      .registration-section {
+        text-align: left;
+      }
+
+      .registration-button {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-inner">
+
+      <a class="brand" href="/" aria-label="HonorWays Consulting home">
+        <img
+          class="brand-logo"
+          src="/assets/images/honorways-logo.jpeg"
+          alt="HonorWays Consulting logo"
+        >
+
+        <div class="brand-wordmark">
+          <strong>HONORWAYS</strong>
+          <span>CONSULTING</span>
+        </div>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/marc-partowihono/">About</a>
+        <a class="active" href="/ontdek-ai/">Ontdek AI</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+
+    <section class="hero">
+      <div class="hero-inner">
+
+        <div class="hero-eyebrow">HonorWays Consulting</div>
+
+        <h1>Ontdek AI</h1>
+
+        <p class="hero-subtitle">
+          Praktische introductietraining voor verantwoord AI-gebruik
+        </p>
+
+        <p class="hero-lead">
+          Leer AI begrijpen, praktisch gebruiken en verantwoord toepassen
+          voor werk, studie en het dagelijks leven.
+        </p>
+
+        <div class="hero-actions">
+          <a
+            class="button button-primary"
+            href="https://forms.gle/QDpSLL1rDuHLjHRg6"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Registreer voor Ontdek AI
+          </a>
+
+          <a
+            class="button button-secondary"
+            href="#wat-leert-u"
+          >
+            Bekijk de training
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- INTRO -->
+
+    <section class="section intro-section">
+      <div class="section-inner intro-copy">
+
+        <div class="section-label">Kennismaken met AI</div>
+
+        <h2>Wat is Ontdek AI?</h2>
+
+        <p>
+          Artificial Intelligence (AI) wordt steeds meer onderdeel van ons
+          dagelijks leven. Maar wat is AI eigenlijk? Wat kunt u ermee?
+          En hoe gebruikt u het op een praktische, veilige en verantwoorde manier?
+        </p>
+
+        <p>
+          Tijdens Ontdek AI maakt u op een toegankelijke en praktische manier
+          kennis met AI. Of u nu nog weinig ervaring heeft of al gebruikmaakt
+          van bijvoorbeeld ChatGPT, Gemini of andere AI-tools: u leert de basis
+          beter begrijpen en gaat zelf praktisch aan de slag.
+        </p>
+
+        <p>
+          Zo ontdekt u hoe u AI bewuster en effectiever kunt inzetten voor
+          bijvoorbeeld werk, studie, uw onderneming en dagelijkse activiteiten.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- WHAT YOU LEARN -->
+
+    <section id="wat-leert-u" class="section learning-section">
+      <div class="section-inner">
+
+        <div class="section-label">De training</div>
+
+        <h2>Wat ontdekt u?</h2>
+
+        <div class="learning-grid">
+
+          <div class="learning-item">
+            Begrijpen wat AI is — en wat het niet is
+          </div>
+
+          <div class="learning-item">
+            Praktisch werken met bekende AI-tools
+          </div>
+
+          <div class="learning-item">
+            Betere en gestructureerde opdrachten (prompts) geven aan AI
+          </div>
+
+          <div class="learning-item">
+            AI praktisch gebruiken voor tekst, afbeeldingen, informatie
+            en dagelijkse taken
+          </div>
+
+          <div class="learning-item">
+            De mogelijkheden én beperkingen van AI beter begrijpen
+          </div>
+
+          <div class="learning-item">
+            Bewust omgaan met privacy, betrouwbaarheid, veiligheid
+            en verantwoord AI-gebruik
+          </div>
+
+          <div class="learning-item">
+            Fake images, deepfakes, manipulatie en misleidende informatie
+            beter leren herkennen
+          </div>
+
+        </div>
+
+        <p class="learning-followup">
+          Het gaat niet alleen om weten wat AI kan. Tijdens de training gaat u
+          zelf praktisch aan de slag, zodat u na afloop beter weet hoe u AI in
+          uw eigen situatie kunt gebruiken.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- PRACTICAL INFO -->
+
+    <section class="section practical-section">
+      <div class="section-inner">
+
+        <div class="section-label">Praktische informatie</div>
+
+        <h2>Ontdek AI in het kort</h2>
+
+        <div class="practical-grid">
+
+          <div class="practical-card">
+            <strong>Vorm</strong>
+            <span>
+              Primair fysiek in Paramaribo. Online mogelijk bij voldoende interesse.
+            </span>
+          </div>
+
+          <div class="practical-card">
+            <strong>Tijd</strong>
+            <span>09:00 – 12:00 uur</span>
+          </div>
+
+          <div class="practical-card">
+            <strong>Investering</strong>
+            <span>SRD 1.000 per deelnemer</span>
+          </div>
+
+          <div class="practical-card">
+            <strong>Groep</strong>
+            <span>Beperkt aantal plaatsen per trainingssessie</span>
+          </div>
+
+          <div class="practical-card">
+            <strong>Certificaat</strong>
+            <span>Deelnamecertificaat inbegrepen</span>
+          </div>
+
+          <div class="practical-card">
+            <strong>Starterkit</strong>
+            <span>Ontdek AI Starterkit inbegrepen</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ENGLISH -->
+
+    <aside class="english-block">
+
+      <h2>Prefer the training in English?</h2>
+
+      <p>
+        An English-language Ontdek AI session can be organized if there is
+        sufficient interest.
+      </p>
+
+      <p>
+        <strong>WhatsApp “ENGLISH” to register your interest.</strong>
+      </p>
+
+      <a
+        class="english-link"
+        href="https://wa.me/5978777754?text=ENGLISH"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        WhatsApp HonorWays →
+      </a>
+
+    </aside>
+
+
+    <!-- RESPONSIBLE AI -->
+
+    <section class="section responsible-section">
+      <div class="section-inner responsible-copy">
+
+        <div class="section-label">De HonorWays-benadering</div>
+
+        <h2>Verantwoord AI gebruiken</h2>
+
+        <p>
+          Bij HonorWays gaat AI niet alleen over wat technisch mogelijk is,
+          maar ook over hoe we technologie verantwoord gebruiken.
+        </p>
+
+        <p>
+          Tijdens Ontdek AI leert u daarom onder andere om AI-antwoorden niet
+          automatisch als waarheid aan te nemen, bewust om te gaan met
+          persoonlijke en vertrouwelijke gegevens en alert te zijn op
+          misleidende of gemanipuleerde content.
+        </p>
+
+        <div class="responsible-message">
+          AI ondersteunt de mens — u blijft verantwoordelijk.
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- INCLUDED -->
+
+    <section class="section included-section">
+      <div class="section-inner">
+
+        <div class="section-label">Na de training</div>
+
+        <h2>Inbegrepen bij de training</h2>
+
+        <div class="included-grid">
+
+          <div class="included-card">
+            <h3>Deelnamecertificaat</h3>
+            <p>
+              Na afloop ontvangt u een certificaat van deelname aan Ontdek AI.
+            </p>
+          </div>
+
+          <div class="included-card">
+            <h3>Ontdek AI Starterkit</h3>
+            <p>
+              Praktisch materiaal waarmee u na de training verder kunt oefenen
+              en het geleerde kunt blijven toepassen.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SOCIAL PROOF -->
+
+    <section class="section proof-section">
+      <div class="section-inner">
+
+        <div class="section-label">Ontdek AI in de praktijk</div>
+
+        <h2>Ervaringen van deelnemers</h2>
+
+        <div class="proof-layout">
+
+          <div>
+            <img
+              class="proof-photo"
+              src="/assets/images/ontdek-ai-training-augustus-2026.jpeg"
+              alt="Deelnemers aan een eerdere Ontdek AI-training van HonorWays Consulting met hun deelnamecertificaten"
+              loading="lazy"
+            >
+
+            <p class="photo-caption">
+              Eerdere deelnemers aan Ontdek AI
+            </p>
+          </div>
+
+          <div class="testimonials">
+
+            <blockquote class="testimonial">
+              “Ik heb bijv een flyer ontworpen tbv een verkoopdag ......”
+            </blockquote>
+
+            <blockquote class="testimonial">
+              “Ben blij dat ik de training heb gevolgd. Hierdoor weet ik hoe
+              en wanneer ik AI moet/ kan gebruiken en waarop ik moet letten
+              en alert zijn.”
+            </blockquote>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- REGISTRATION -->
+
+    <section class="section registration-section">
+      <div class="registration-inner">
+
+        <div class="section-label">Interesse doorgeven</div>
+
+        <h2>Interesse in Ontdek AI?</h2>
+
+        <p>
+          Wilt u deelnemen aan een volgende Ontdek AI-training?
+        </p>
+
+        <p>
+          Via het registratieformulier kunt u uw interesse doorgeven en uw
+          voorkeuren aangeven. Op basis van de belangstelling en aangegeven
+          voorkeuren worden de volgende trainingssessies gepland.
+        </p>
+
+        <p>
+          Na uw registratie neemt HonorWays Consulting contact met u op zodra
+          een passend trainingsmoment wordt ingepland.
+        </p>
+
+        <p class="registration-note">
+          <strong>Registreren is nog geen definitieve boeking.</strong>
+        </p>
+
+        <a
+          class="button registration-button"
+          href="https://forms.gle/QDpSLL1rDuHLjHRg6"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Registreer voor Ontdek AI
+        </a>
+
+      </div>
+    </section>
+
+
+    <!-- QUESTIONS -->
+
+    <section class="questions-section">
+      <div class="questions-inner">
+
+        <h2>Nog vragen over Ontdek AI?</h2>
+
+        <p>
+          Neem gerust contact op met HonorWays Consulting via WhatsApp.
+        </p>
+
+        <a
+          class="whatsapp-link"
+          href="https://wa.me/5978777754?text=Hallo%20HonorWays%20Consulting%2C%20ik%20wil%20graag%20meer%20informatie%20over%20de%20Ontdek%20AI-training."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          WhatsApp +597 877 7754 →
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="registration">KKF No. 174181</div>
+    &copy; 2026 HonorWays Consulting. All rights reserved.
+  </footer>
+
+</body>
+</html>
