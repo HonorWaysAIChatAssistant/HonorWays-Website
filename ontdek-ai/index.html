@@ -10,38 +10,35 @@
 
   gtag('config', 'G-X1T52NTRWQ');
 </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Ontdek AI Training | Praktisch en Verantwoord AI-gebruik | HonorWays Consulting</title>
+  <title>Ontdek AI Intro | Praktisch en Verantwoord AI-gebruik | HonorWays Consulting</title>
 
   <meta
     name="description"
-    content="Ontdek AI is een praktische introductietraining van HonorWays Consulting in Paramaribo. Leer AI begrijpen, praktisch gebruiken en verantwoord toepassen voor werk, studie en het dagelijks leven."
+    content="Ontdek AI Intro is een praktische training van HonorWays Consulting. Leer AI praktisch, bewust en verantwoord gebruiken. Fysiek in Paramaribo of live online via Google Meet."
   >
 
   <meta name="author" content="HonorWays Consulting">
 
-  <link rel="canonical" href="https://honorways.com/ontdek-ai/">
+  <!-- Testpagina: niet laten indexeren -->
+  <meta name="robots" content="noindex, nofollow">
 
-  <meta property="og:title" content="Ontdek AI | HonorWays Consulting">
+  <meta property="og:title" content="Ontdek AI Intro | HonorWays Consulting">
   <meta
     property="og:description"
-    content="Praktische introductietraining voor verantwoord AI-gebruik. Leer AI begrijpen, praktisch gebruiken en verantwoord toepassen."
+    content="Leer AI praktisch, bewust en verantwoord gebruiken. Ontdek AI Intro is fysiek in Paramaribo en live online via Google Meet beschikbaar."
   >
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://honorways.com/ontdek-ai/">
-  <meta
-    property="og:image"
-    content="https://honorways.com/assets/images/ontdek-ai-training-augustus-2026.jpeg"
-  >
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Course",
-    "name": "Ontdek AI",
-    "description": "Praktische introductietraining voor verantwoord AI-gebruik.",
+    "name": "Ontdek AI Intro",
+    "description": "Praktische introductietraining voor bewust en verantwoord AI-gebruik.",
     "provider": {
       "@type": "Organization",
       "name": "HonorWays Consulting",
@@ -210,11 +207,12 @@
     }
 
     .hero h1 {
+      max-width: 850px;
       color: var(--navy);
       font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(52px, 7vw, 78px);
+      font-size: clamp(48px, 6vw, 72px);
       font-weight: 500;
-      line-height: 1;
+      line-height: 1.05;
       letter-spacing: -0.02em;
     }
 
@@ -227,7 +225,7 @@
     }
 
     .hero-lead {
-      max-width: 780px;
+      max-width: 800px;
       margin-top: 28px;
       color: var(--text);
       font-size: 19px;
@@ -327,38 +325,121 @@
       line-height: 1.8;
     }
 
-    /* PRACTICAL */
+    /* TRAINING OPTIONS */
 
     .practical-section {
       background: var(--white);
     }
 
-    .practical-grid {
+    .training-options {
       margin-top: 38px;
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 18px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
     }
 
-    .practical-card {
-      padding: 26px 24px;
-      background: var(--cream-soft);
+    .training-option {
+      padding: 32px 30px;
       border: 1px solid var(--border);
+      background: var(--cream-soft);
     }
 
-    .practical-card strong {
-      display: block;
-      margin-bottom: 7px;
+    .training-option h3 {
       color: var(--navy);
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 18px;
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 1.25;
+    }
+
+    .training-option .format {
+      margin-top: 8px;
+      color: var(--gold-dark);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .training-option .price {
+      margin-top: 22px;
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 30px;
       font-weight: 600;
     }
 
-    .practical-card span {
+    .training-option p {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 15.5px;
+      line-height: 1.7;
+    }
+
+    .option-list {
+      margin-top: 20px;
+      list-style: none;
+    }
+
+    .option-list li {
+      position: relative;
+      padding: 8px 0 8px 25px;
+      border-top: 1px solid var(--border);
+      font-size: 15px;
+    }
+
+    .option-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--gold-dark);
+      font-weight: 700;
+    }
+
+    .practical-note {
+      max-width: 850px;
+      margin-top: 30px;
       color: var(--muted);
       font-size: 15px;
-      line-height: 1.65;
+      line-height: 1.75;
+    }
+
+    /* UPCOMING TRAININGS */
+
+    .upcoming-section {
+      background: var(--cream);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .upcoming-copy {
+      max-width: 850px;
+    }
+
+    .upcoming-copy p {
+      margin-top: 18px;
+      font-size: 16.5px;
+      line-height: 1.8;
+    }
+
+    .upcoming-flyer {
+  margin-top: 34px;
+  text-align: center;
+}
+
+.upcoming-flyer img {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(12,35,64,0.12);
+}
+
+    .upcoming-actions {
+      margin-top: 25px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
     }
 
     /* ENGLISH */
@@ -404,7 +485,7 @@
     }
 
     .responsible-copy {
-      max-width: 850px;
+      max-width: 900px;
     }
 
     .responsible-copy p {
@@ -519,14 +600,9 @@
       line-height: 1.8;
     }
 
-    .registration-note {
-      color: var(--muted);
-      font-size: 14px !important;
-    }
-
     .registration-button {
       margin-top: 28px;
-      min-width: 250px;
+      min-width: 270px;
       background: var(--gold-dark);
       color: var(--white);
     }
@@ -623,7 +699,7 @@
       }
 
       .hero h1 {
-        font-size: 54px;
+        font-size: 50px;
       }
 
       .hero-lead {
@@ -638,8 +714,8 @@
         grid-template-columns: 1fr;
       }
 
-      .practical-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+      .training-options {
+        grid-template-columns: 1fr;
       }
 
       .proof-layout {
@@ -679,7 +755,7 @@
       }
 
       .hero h1 {
-        font-size: 46px;
+        font-size: 42px;
       }
 
       .hero-subtitle {
@@ -690,7 +766,8 @@
         font-size: 16px;
       }
 
-      .hero-actions {
+      .hero-actions,
+      .upcoming-actions {
         flex-direction: column;
       }
 
@@ -710,10 +787,6 @@
       .responsible-copy p,
       .learning-followup {
         font-size: 16px;
-      }
-
-      .practical-grid {
-        grid-template-columns: 1fr;
       }
 
       .english-block {
@@ -736,6 +809,10 @@
       .registration-button {
         width: 100%;
         text-align: center;
+      }
+
+      .upcoming-placeholder {
+        padding: 26px 20px;
       }
     }
   </style>
@@ -769,6 +846,7 @@
     </div>
   </header>
 
+
   <main>
 
     <!-- HERO -->
@@ -778,34 +856,38 @@
 
         <div class="hero-eyebrow">HonorWays Consulting</div>
 
-        <h1>Ontdek AI</h1>
+        <h1>Ontdek wat AI voor jou kan doen.</h1>
 
         <p class="hero-subtitle">
-          Praktische introductietraining voor verantwoord AI-gebruik
+          Ontdek AI Intro
         </p>
 
         <p class="hero-lead">
-          Leer AI begrijpen, praktisch gebruiken en verantwoord toepassen
-          voor werk, studie en het dagelijks leven.
+          Leer AI praktisch, bewust en verantwoord gebruiken. Ontdek de mogelijkheden
+          van AI voor werk, studie, ondernemerschap en het dagelijks leven — én leer
+          omgaan met belangrijke aandachtspunten zoals privacy, betrouwbaarheid,
+          veiligheid en misleidende AI-content.
         </p>
 
         <div class="hero-actions">
+
           <a
             class="button button-primary"
-            href="https://forms.gle/QDpSLL1rDuHLjHRg6"
+            href="https://wa.me/5978777754?text=Hallo%20HonorWays%20Consulting%2C%20ik%20heb%20interesse%20in%20Ontdek%20AI%20Intro."
             target="_blank"
             rel="noopener noreferrer"
-            onclick="gtag('event', 'ontdek_ai_registration_click');"
+            onclick="gtag('event', 'ontdek_ai_whatsapp_click');"
           >
-            Registreer voor Ontdek AI
+            Meld u aan via WhatsApp
           </a>
 
           <a
             class="button button-secondary"
             href="#wat-leert-u"
           >
-            Bekijk de training
+            Bekijk wat u leert
           </a>
+
         </div>
 
       </div>
@@ -819,24 +901,27 @@
 
         <div class="section-label">Kennismaken met AI</div>
 
-        <h2>Wat is Ontdek AI?</h2>
+        <h2>Wat is Ontdek AI Intro?</h2>
 
         <p>
-          Artificial Intelligence (AI) wordt steeds meer onderdeel van ons
-          dagelijks leven. Maar wat is AI eigenlijk? Wat kunt u ermee?
-          En hoe gebruikt u het op een praktische, veilige en verantwoorde manier?
+          Artificial Intelligence (AI) wordt steeds meer onderdeel van ons dagelijks
+          leven. AI biedt nieuwe mogelijkheden om informatie te verwerken, ideeën
+          te ontwikkelen, creatief te werken en dagelijkse taken efficiënter aan
+          te pakken. Tegelijk brengt het gebruik van AI ook vragen en risico's met
+          zich mee.
         </p>
 
         <p>
-          Tijdens Ontdek AI maakt u op een toegankelijke en praktische manier
-          kennis met AI. Of u nu nog weinig ervaring heeft of al gebruikmaakt
-          van bijvoorbeeld ChatGPT, Gemini of andere AI-tools: u leert de basis
-          beter begrijpen en gaat zelf praktisch aan de slag.
+          Tijdens Ontdek AI Intro maakt u op een toegankelijke en praktische manier
+          kennis met AI. Of u nu nog weinig ervaring heeft of al gebruikmaakt van
+          bijvoorbeeld ChatGPT, Gemini of andere AI-tools: u leert de basis beter
+          begrijpen en gaat zelf praktisch aan de slag.
         </p>
 
         <p>
-          Zo ontdekt u hoe u AI bewuster en effectiever kunt inzetten voor
-          bijvoorbeeld werk, studie, uw onderneming en dagelijkse activiteiten.
+          Daarbij kijken we niet alleen naar wat AI kan, maar ook naar hoe u AI
+          bewust, veilig en verantwoord kunt gebruiken. Zo krijgt u een stevige
+          basis om AI beter toe te passen in uw eigen situatie.
         </p>
 
       </div>
@@ -890,7 +975,7 @@
         <p class="learning-followup">
           Het gaat niet alleen om weten wat AI kan. Tijdens de training gaat u
           zelf praktisch aan de slag, zodat u na afloop beter weet hoe u AI in
-          uw eigen situatie kunt gebruiken.
+          uw eigen situatie kunt gebruiken — en waarop u daarbij moet letten.
         </p>
 
       </div>
@@ -902,44 +987,97 @@
     <section class="section practical-section">
       <div class="section-inner">
 
-        <div class="section-label">Praktische informatie</div>
+        <div class="section-label">Kies de vorm die bij u past</div>
 
-        <h2>Ontdek AI in het kort</h2>
+        <h2>Ontdek AI Intro: fysiek of online</h2>
 
-        <div class="practical-grid">
+        <div class="training-options">
 
-          <div class="practical-card">
-            <strong>Vorm</strong>
-            <span>
-              Primair fysiek in Paramaribo. Online mogelijk bij voldoende interesse.
-            </span>
-          </div>
+          <article class="training-option">
+            <h3>Fysieke training</h3>
+            <div class="format">LIVE IN PARAMARIBO</div>
 
-          <div class="practical-card">
-            <strong>Tijd</strong>
-            <span>09:00 – 12:00 uur</span>
-          </div>
+            <div class="price">SRD 1.500</div>
 
-          <div class="practical-card">
-            <strong>Investering (Live-Fysiek)</strong>
-            <span>SRD 1.500 per deelnemer</span>
-          </div>
+            <p>
+              Volg Ontdek AI Intro in een interactieve fysieke trainingssessie
+              in Paramaribo.
+            </p>
 
-          <div class="practical-card">
-            <strong>Groep</strong>
-            <span>Beperkt aantal plaatsen per trainingssessie</span>
-          </div>
+            <ul class="option-list">
+              <li>Circa 3 uur training</li>
+              <li>Praktische oefeningen en demonstraties</li>
+              <li>Ontdek AI Starterkit inbegrepen</li>
+              <li>Deelnamecertificaat inbegrepen</li>
+              <li>Beperkt aantal deelnemers per sessie</li>
+            </ul>
+          </article>
 
-          <div class="practical-card">
-            <strong>Certificaat</strong>
-            <span>Deelnamecertificaat inbegrepen</span>
-          </div>
 
-          <div class="practical-card">
-            <strong>Starterkit</strong>
-            <span>Ontdek AI Starterkit inbegrepen</span>
-          </div>
+          <article class="training-option">
+            <h3>Online training</h3>
+            <div class="format">LIVE VIA GOOGLE MEET</div>
 
+            <div class="price">SRD 1.250</div>
+
+            <p>
+              Volg dezelfde Ontdek AI Intro live online, met uitleg,
+              demonstraties en gelegenheid om vragen te stellen.
+            </p>
+
+            <ul class="option-list">
+              <li>Circa 3 uur live online training</li>
+              <li>Praktische oefeningen en demonstraties</li>
+              <li>Ontdek AI Starterkit inbegrepen</li>
+              <li>Deelnamecertificaat inbegrepen</li>
+              <li>Deelname vanuit uw eigen locatie</li>
+            </ul>
+          </article>
+
+        </div>
+
+        <p class="practical-note">
+          Trainingsdata worden periodiek bekendgemaakt. Neem gerust contact op
+          met HonorWays Consulting voor de eerstvolgende beschikbare fysieke
+          of online sessie.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- UPCOMING TRAININGS -->
+
+    <section class="section upcoming-section">
+      <div class="section-inner upcoming-copy">
+
+        <div class="section-label">Actuele trainingsdata</div>
+
+        <h2>Aankomende trainingen</h2>
+
+        <p>
+          HonorWays Consulting organiseert Ontdek AI Intro zowel fysiek in
+          Paramaribo als live online. Bekijk onze actuele communicatie voor
+          de eerstvolgende trainingsdata of neem rechtstreeks contact met ons op.
+        </p>
+
+        <div class="upcoming-flyer">
+  <img
+    src="/assets/images/ontdek-ai-actuele-trainingen.png"
+    alt="Actuele trainingsdata voor Ontdek AI Intro van HonorWays Consulting"
+    loading="lazy"
+  >
+</div>
+
+        <div class="upcoming-actions">
+          <a
+            class="button button-primary"
+            href="https://wa.me/5978777754?text=Hallo%20HonorWays%20Consulting%2C%20ik%20wil%20graag%20weten%20wanneer%20de%20eerstvolgende%20Ontdek%20AI%20Intro-training%20is."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Meld u aan via WhatsApp
+          </a>
         </div>
 
       </div>
@@ -953,7 +1091,7 @@
       <h2>Prefer the training in English?</h2>
 
       <p>
-        An English-language Ontdek AI session can be organized if there is
+        An English-language Ontdek AI Intro session can be organized if there is
         sufficient interest.
       </p>
 
@@ -980,18 +1118,26 @@
 
         <div class="section-label">De HonorWays-benadering</div>
 
-        <h2>Verantwoord AI gebruiken</h2>
+        <h2>Benut de mogelijkheden. Houd de risico's in het oog.</h2>
 
         <p>
           Bij HonorWays gaat AI niet alleen over wat technisch mogelijk is,
-          maar ook over hoe we technologie verantwoord gebruiken.
+          maar ook over hoe we technologie bewust en verantwoord gebruiken.
+          AI kan veel waarde bieden, maar goede resultaten vragen ook om
+          kritisch denken en menselijke verantwoordelijkheid.
         </p>
 
         <p>
-          Tijdens Ontdek AI leert u daarom onder andere om AI-antwoorden niet
-          automatisch als waarheid aan te nemen, bewust om te gaan met
-          persoonlijke en vertrouwelijke gegevens en alert te zijn op
-          misleidende of gemanipuleerde content.
+          Tijdens Ontdek AI Intro leert u daarom onder andere om AI-antwoorden
+          niet automatisch als waarheid aan te nemen, zorgvuldig om te gaan
+          met persoonlijke en vertrouwelijke gegevens en alert te zijn op
+          misleidende, gemanipuleerde of door AI gegenereerde content.
+        </p>
+
+        <p>
+          Zo leert u niet alleen hoe u AI kunt gebruiken, maar ook hoe u
+          bewuster kunt beoordelen wanneer en waarvoor het verstandig is
+          om AI in te zetten.
         </p>
 
         <div class="responsible-message">
@@ -1016,15 +1162,17 @@
           <div class="included-card">
             <h3>Deelnamecertificaat</h3>
             <p>
-              Na afloop ontvangt u een certificaat van deelname aan Ontdek AI.
+              Na afloop ontvangt u een certificaat van deelname aan
+              Ontdek AI Intro.
             </p>
           </div>
 
           <div class="included-card">
             <h3>Ontdek AI Starterkit</h3>
             <p>
-              Praktisch materiaal waarmee u na de training verder kunt oefenen
-              en het geleerde kunt blijven toepassen.
+              Praktisch materiaal waarmee u na de training verder kunt oefenen,
+              belangrijke aandachtspunten kunt terugvinden en het geleerde kunt
+              blijven toepassen.
             </p>
           </div>
 
@@ -1083,36 +1231,28 @@
     <section class="section registration-section">
       <div class="registration-inner">
 
-        <div class="section-label">Interesse doorgeven</div>
+        <div class="section-label">Deelnemen</div>
 
-        <h2>Interesse in Ontdek AI?</h2>
+        <h2>Interesse in Ontdek AI Intro?</h2>
 
         <p>
-          Wilt u deelnemen aan een volgende Ontdek AI-training?
+          Ontdek AI Intro wordt aangeboden als fysieke training in Paramaribo
+          en als live online training via Google Meet.
         </p>
 
         <p>
-          Via het registratieformulier kunt u uw interesse doorgeven en uw
-          voorkeuren aangeven. Op basis van de belangstelling en aangegeven
-          voorkeuren worden de volgende trainingssessies gepland.
-        </p>
-
-        <p>
-          Na uw registratie neemt HonorWays Consulting contact met u op zodra
-          een passend trainingsmoment wordt ingepland.
-        </p>
-
-        <p class="registration-note">
-          <strong>Registreren is nog geen definitieve boeking.</strong>
+          Neem via WhatsApp contact op met HonorWays Consulting voor de
+          eerstvolgende trainingsdata, beschikbaarheid en aanmelding.
         </p>
 
         <a
           class="button registration-button"
-          href="https://forms.gle/QDpSLL1rDuHLjHRg6"
+          href="https://wa.me/5978777754?text=Hallo%20HonorWays%20Consulting%2C%20ik%20heb%20interesse%20in%20Ontdek%20AI%20Intro.%20Kunt%20u%20mij%20de%20eerstvolgende%20trainingsdata%20sturen%3F"
           target="_blank"
           rel="noopener noreferrer"
+          onclick="gtag('event', 'ontdek_ai_registration_whatsapp_click');"
         >
-          Registreer voor Ontdek AI
+          Meld u aan via WhatsApp
         </a>
 
       </div>
@@ -1132,7 +1272,7 @@
 
         <a
           class="whatsapp-link"
-          href="https://wa.me/5978777754?text=Hallo%20HonorWays%20Consulting%2C%20ik%20wil%20graag%20meer%20informatie%20over%20de%20Ontdek%20AI-training."
+          href="https://wa.me/5978777754?text=Hallo%20HonorWays%20Consulting%2C%20ik%20wil%20graag%20meer%20informatie%20over%20Ontdek%20AI%20Intro."
           target="_blank"
           rel="noopener noreferrer"
         >
