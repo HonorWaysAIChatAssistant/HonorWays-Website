@@ -420,29 +420,20 @@
       line-height: 1.8;
     }
 
-    .upcoming-placeholder {
-      margin-top: 34px;
-      padding: 34px;
-      border: 1px dashed #cbbd9f;
-      background: rgba(255,255,255,0.55);
-      text-align: center;
-    }
+    .upcoming-flyer {
+  margin-top: 34px;
+  text-align: center;
+}
 
-    .upcoming-placeholder strong {
-      display: block;
-      color: var(--navy);
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 22px;
-      font-weight: 500;
-    }
-
-    .upcoming-placeholder span {
-      display: block;
-      max-width: 650px;
-      margin: 10px auto 0;
-      color: var(--muted);
-      font-size: 14.5px;
-    }
+.upcoming-flyer img {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(12,35,64,0.12);
+}
 
     .upcoming-actions {
       margin-top: 25px;
@@ -1070,14 +1061,13 @@
           de eerstvolgende trainingsdata of neem rechtstreeks contact met ons op.
         </p>
 
-        <div class="upcoming-placeholder">
-          <strong>Actuele trainingsdata</strong>
-          <span>
-            Hier kan een actuele HonorWays-flyer of trainingsagenda worden geplaatst.
-            Zo blijft de algemene informatie op deze pagina hetzelfde en hoeft alleen
-            dit onderdeel bij nieuwe trainingsdata te worden bijgewerkt.
-          </span>
-        </div>
+        <div class="upcoming-flyer">
+  <img
+    src="/assets/images/ontdek-ai-actuele-trainingen.png"
+    alt="Actuele trainingsdata voor Ontdek AI Intro van HonorWays Consulting"
+    loading="lazy"
+  >
+</div>
 
         <div class="upcoming-actions">
           <a
